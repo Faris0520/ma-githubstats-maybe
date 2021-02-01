@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+html,body{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+.dance{
+    z-index: 20;
+    justify-content: center;
+}
+.anu{
+    z-index: 10;
+    position: absolute;
+    left: 0;
+}
+img{
+    image-rendering: pixelated;
+    zoom:70%;
+    position: absolute;
+}
+.nes-container.is-rounded{
+    position: relative;
+    /*zoom: 52%;*/
+    left: -2.3px;
+    z-index: 5;
+}
+.bg{
+    background-image: url("assets/bg.jpg");
+    height: 100px;
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.banner{
+    margin: auto;
+    position: absolute;
+    image-rendering: pixelated;
+    background: url("assets/b.png");
+    width: 800px; height: 250px;
+    border-radius: 11px 10px 0px 0px;
+    left: 0; right: 0; top: -250px; bottom: 0;
+    z-index: 2;
+}
+.hatkid{
+    background-image: url("assets/hatkid.gif");
+    width: 150px; height: 130px;
+    position: absolute;
+    image-rendering: pixelated;
+    left: -20px; right: 0; top: 120px; bottom: 0;
+}
+.hatkid1{
+    background-image: url("assets/hatkid1.gif");
+    width: 310px; height: 340px;
+    position: fixed; margin: auto;
+    image-rendering: pixelated;
+    right: -50px; bottom: -50px;
+    transform: scale(.7);
+}
+.text{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.7);
+    vertical-align: middle;
+    line-height: 24px;
+    position: relative;
+    left: 7px; top: 5px; bottom: 0;
+    z-index: 2;
+    display: block;
+}
+.tombol{
+    position: absolute;
+    zoom: 52%;
+    right: -119px; bottom: -25px;
+    filter: opacity(.5);
+    z-index: 100;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.links{
+    margin: auto;
+    position: absolute;
+    width: 800px; height: 250px;
+    border-radius: 0px 0px 10px 11px;
+    left: 0; right: 0; top: 250px; bottom: 0;
+    display: none;
+    z-index: 2;
+}
+.nes-badge{
+    left: 25%;
+    top: 100px;
+    z-index: 10; 
+}
+.p{
+    margin: auto;
+    position: absolute;
+    background-color: rgb(140, 74, 122, 0.8);
+    width: 800px; height: 250px;
+    border-radius: 0px 0px 10px 11px;
+    left: 0; right: 0; top: 250px; bottom: 0;
+}
+.cr{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.637);
+    margin: auto;
+    position: fixed;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    top: 98%;
+}
+#fscroller{
+    background-color: rgb(140, 74, 122, 0.8);
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 770px;
+    font-size: 5px;
+    display: none;
+    padding: 0;
+}
+#stars { width: 100%; height: 100%; position: fixed; top: 0px; left: 0; }
+.star{ display: block;width: 1px;background: transparent; position: absolute; opacity: 0; animation: star-fall 3s linear infinite; -webkit-animation: star-fall 3s linear infinite; -moz-animation: star-fall 3s linear infinite; }
+.star:after { content: ''; display: block; border: 0px solid #fff; border-width: 0px 90px 2px 90px; border-color: transparent transparent transparent rgba(255, 255, 255, .5); box-shadow: 0 0 1px 0 rgba(255, 255, 255, .1); transform: rotate(-45deg) translate3d(1px, 3px, 0); -webkit-transform: rotate(-45deg) translate3d(1px, 3px, 0); -moz-transform: rotate(-45deg) translate3d(1px, 3px, 0); transform-origin: 0% 100%; -webkit-transform-origin: 0% 100%; -moz-transform-origin: 0% 100%; }
+
+@keyframes star-fall {
+	0% {
+		 opacity: 0;
+		 transform: scale(0.5) translate3d(0, 0, 0);
+		 -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+         -moz-transform: scale(0.5) translate3d(0, 0, 0);
+	}
+	50% {
+		 opacity: 1;
+		 transform: translate3d(-200px, 200px, 0);
+		 -webkit-transform: translate3d(-200px, 200px, 0);
+		 -moz-transform: translate3d(-200px, 200px, 0);
+	}
+	100% {
+		 opacity: 0;
+		 transform: scale(1.2) translate3d(-300px, 300px, 0);
+		 -webkit-transform: scale(1.2) translate3d(-300px, 300px, 0);
+		 -moz-transform: scale(1.2) translate3d(-300px, 300px, 0);
+	}
+}
