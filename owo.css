@@ -39,7 +39,7 @@ img{
     margin: auto;
     position: absolute;
     image-rendering: pixelated;
-    background: url("assets/moai.jpeg");
+    background: url("assets/moai.png");
     width: 800px; height: 250px;
     border-radius: 11px 10px 0px 0px;
     left: 0; right: 0; top: -250px; bottom: 0;
