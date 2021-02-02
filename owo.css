@@ -28,7 +28,7 @@ img{
     z-index: 5;
 }
 .bg{
-    background-image: url("assets/bg.jpg");
+    background-image: url("assets/b.jpg");
     height: 100px;
     background-size: contain;
     -webkit-background-size: cover;
