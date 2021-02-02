@@ -46,14 +46,14 @@ img{
     z-index: 2;
 }
 .hatkid{
-    background-image: url("assets/hatkid.gif");
+    background-image: url("assets/gip.gif");
     width: 150px; height: 130px;
     position: absolute;
     image-rendering: pixelated;
     left: -20px; right: 0; top: 120px; bottom: 0;
 }
 .hatkid1{
-    background-image: url("assets/hatkid1.gif");
+    background-image: url("assets/rika.gif");
     width: 310px; height: 340px;
     position: fixed; margin: auto;
     image-rendering: pixelated;
