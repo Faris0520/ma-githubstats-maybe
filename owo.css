@@ -42,7 +42,7 @@ img{
     background: url("assets/moai.png");
     width: 800px; height: 250px;
     border-radius: 11px 10px 0px 0px;
-    left: 250px; right: 0; top: -250px; bottom: 0;
+    left: 0; right: 0; top: -250px; bottom: 0;
     z-index: 2;
 }
 .hatkid{
