@@ -40,9 +40,9 @@ img{
     position: absolute;
     image-rendering: pixelated;
     background: url("assets/moai.png");
-    width: 500px; height: 150px;
+    width: 800px; height: 250px;
     border-radius: 11px 10px 0px 0px;
-    left: 0; right: 0; top: -250px; bottom: 0;
+    left: 0; right: 0; top: 0px; bottom: 0;
     z-index: 2;
 }
 .hatkid{
