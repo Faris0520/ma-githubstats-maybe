@@ -40,7 +40,7 @@ img{
     position: absolute;
     image-rendering: pixelated;
     background: url("assets/moai.png");
-    width: 800px; height: 250px;
+    width: 500px; height: 150px;
     border-radius: 11px 10px 0px 0px;
     left: 0; right: 0; top: -250px; bottom: 0;
     z-index: 2;
