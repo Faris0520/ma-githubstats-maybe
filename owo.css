@@ -50,7 +50,7 @@ img{
     width: 150px; height: 130px;
     position: absolute;
     image-rendering: pixelated;
-    left: -20px; right: 0; top: 120px; bottom: 0;
+    left: -40px; right: 0; top: 120px; bottom: 0;
 }
 .hatkid1{
     background-image: url("assets/rika.gif");
