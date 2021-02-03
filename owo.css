@@ -102,7 +102,7 @@ img{
 .p{
     margin: auto;
     position: absolute;
-    background-color: rgba(56, 128, 146, 0.8);
+    background-color: rgba(39, 52, 124, 0.8);
     width: 800px; height: 250px;
     border-radius: 0px 0px 10px 11px;
     left: 0; right: 0; top: 250px; bottom: 0;
