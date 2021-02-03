@@ -50,20 +50,20 @@ img{
     width: 400px; height: 270px;
     position: absolute;
     image-rendering: pixelated;
-    left: -128px;
+    left: -141px;
     right: 0;
-    top: 21px;
+    top: 48px;
     bottom: 0;
-    transform: scale(.7);
+    transform: scale(.5);
 }
 .hatkid1{
     background-image: url("assets/rika.gif");
-    width: 640px; height: 636px;
+    width: 620px; height: 637px;
     position: fixed; margin: auto;
     image-rendering: pixelated;
-    right: -202px;
-    bottom: -193px;
-    transform: scale(.4);
+    right: -225px;
+    bottom: -225px;
+    transform: scale(.3);
 }
 .text{
     font-size: 17px;
