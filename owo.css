@@ -47,18 +47,23 @@ img{
 }
 .hatkid{
     background-image: url("assets/gip.gif");
-    width: 400px; height: 285px;
+    width: 400px; height: 270px;
     position: absolute;
     image-rendering: pixelated;
-    left: -45px; right: 0; top: 90px; bottom: 0;
+    left: -128px;
+    right: 0;
+    top: 21px;
+    bottom: 0;
+    transform: scale(.7);
 }
 .hatkid1{
     background-image: url("assets/rika.gif");
-    width: 310px; height: 340px;
+    width: 640px; height: 636px;
     position: fixed; margin: auto;
     image-rendering: pixelated;
-    right: -50px; bottom: -50px;
-    transform: scale(.7);
+    right: -202px;
+    bottom: -193px;
+    transform: scale(.4);
 }
 .text{
     font-size: 17px;
@@ -111,6 +116,17 @@ img{
     text-align: center;
     width: 100%;
     top: 98%;
+}
+.end{
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.637);
+    margin: auto;
+    position: fixed;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    top: 94%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 #fscroller{
     background-color: rgb(140, 74, 122, 0.8);
