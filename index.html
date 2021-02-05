@@ -39,6 +39,15 @@
     </script>
 </head>
 <body class="bg">
+     <div id="quote">
+      <script>
+        var quot = ["Penderitaan adalah pelajaran.","Bila tekad seseorang kuat dan teguh, Tuhan akan bergabung dalam usahanya.","Hampir semua pria memang mampu bertahan menghadapi kesulitan. Namun, jika Anda ingin menguji karakter sejati pria, beri dia kekuasaan.","Lebih baik mengerti sedikit daripada salah mengerti."]
+      var rand = quot[Math.floor(Math.random() * quot.length)]
+      document.getElementsByClassName("quote")
+      .innerHTML = `${rand}`;
+      </script>
+    </div>
+    <div class="basajepun">- 大丈夫 -</div>
     <div id="stars">
     <div class="star" style="top: 100px; left: 300px;"></div>
     </div>
@@ -48,6 +57,7 @@
         <button class="nes-btn" onclick="myFunction(), myFunction2()">Click Me!</button></div>
       </div>
     <div type="button" class="hatkid1"></div>
+     <div type="button" class="hatkid2"></div>
     <div class="links" id="links">
       <div class="dance">
         <ilayer id="fscrollerns" ><layer id="fscrollerns_sub"></layer></ilayer>
