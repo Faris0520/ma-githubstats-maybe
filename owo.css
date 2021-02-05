@@ -35,6 +35,17 @@ img{
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+.basajepun{
+    font-size: 28px;
+    color: rgba(255, 0, 0, 0.637);
+    margin: auto;
+    position: fixed;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    top: 3%;
+    font-family: cursive;
+}
 .banner{
     margin: auto;
     position: absolute;
@@ -44,6 +55,17 @@ img{
     border-radius: 11px 10px 0px 0px;
     left: 0; right: 0; top: -250px; bottom: 0;
     z-index: 2;
+}
+#quote{
+    font-size: 28px;
+    color: rgba(255, 0, 0, 0.637);
+    margin: auto;
+    position: fixed;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    top: 0%;
+    font-family: cursive;
 }
 .hatkid{
     background-image: url("assets/gip.gif");
@@ -64,6 +86,17 @@ img{
     right: -225px;
     bottom: -225px;
     transform: scale(.3);
+}
+.hatkid2{
+    background-image: url("assets/sakurasou.png");
+    width: 232px;
+    height: 535px;
+    position: fixed;
+    margin: auto;
+    image-rendering: pixelated;
+    right: 1192px;
+    bottom: -134px;
+    transform: scale(.5);
 }
 .text{
     font-size: 17px;
