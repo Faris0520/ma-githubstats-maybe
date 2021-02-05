@@ -14,7 +14,7 @@ html,body{
 .anu{
     z-index: 10;
     position: absolute;
-    left: 0;
+    left: -52px;
 }
 img{
     image-rendering: pixelated;
