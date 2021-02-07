@@ -21,10 +21,18 @@ img{
     zoom:70%;
     position: absolute;
 }
+.nes-badge.is-icon {
+    width: 5.25em;
+}
+.nes-badge {
+    left: 9%;
+    top: 100px;
+    z-index: 10;
+}
 .nes-container.is-rounded{
     position: relative;
     /*zoom: 52%;*/
-    left: -2.3px;
+    left: -0.3px;
     z-index: 5;
 }
 .basajepun{
